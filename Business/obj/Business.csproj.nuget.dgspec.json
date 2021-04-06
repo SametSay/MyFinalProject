@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Business\\Business.csproj": {}
+    "C:\\Users\\Samet\\source\\repos\\a\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Business\\Business.csproj": {
+    "C:\\Users\\Samet\\source\\repos\\a\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Samet\\source\\repos\\a\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Samet\\source\\repos\\a\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -26,19 +26,19 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Samet\\Desktop\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Samet\\source\\repos\\a\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj"
               }
             }
           }
@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -64,6 +68,18 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -86,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Samet\\source\\repos\\a\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -108,8 +124,8 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,15 +160,31 @@
               "target": "Package",
               "version": "[9.5.1, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -169,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\Samet\\Desktop\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Samet\\source\\repos\\a\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Samet\\source\\repos\\a\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Samet\\source\\repos\\a\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -191,19 +223,19 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj"
               },
-              "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj"
               }
             }
           }
@@ -243,14 +275,14 @@
         }
       }
     },
-    "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Samet\\source\\repos\\a\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -265,16 +297,16 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Samet\\Desktop\\MyFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Samet\\source\\repos\\a\\Core\\Core.csproj"
               }
             }
           }
